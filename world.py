@@ -89,11 +89,11 @@ def survivalOfFittest():
             ctx.parents.remove(oldParents[i])
  
 def printOverview():
-    log.info('loopIndex:{} parents:{} children:{} parentIndex:{} lifeIndex:{}'.format(ctx.years, len(ctx.parents),
+    log.info('years:{} parents:{} children:{} parentIndex:{} lifeIndex:{}'.format(ctx.years, len(ctx.parents),
                                                                                   len(ctx.children), ctx.parentIndex,
                                                                                   ctx.lifeIndex))
 def printOverviewCtx(ctx):
-    log.info('loopIndex:{} parents:{} children:{} parentIndex:{} lifeIndex:{}'.format(ctx.loopIndex, len(ctx.parent),
+    log.info('years:{} parents:{} children:{} parentIndex:{} lifeIndex:{}'.format(ctx.loopIndex, len(ctx.parent),
                                                                                   len(ctx.children), ctx.parentIndex,
                                                                                   ctx.lifeIndex))
  
