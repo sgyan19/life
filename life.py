@@ -4,7 +4,7 @@ def clone(s):
     r = []
     for num in range(0, l):
         import random
-        a = random.randint(0, 99)
+        a = random.randint(0, 99999)
         if a in range(0,9):
             r.append(char[random.randint(0,len(char) - 1)])
             r.append(s[num])
